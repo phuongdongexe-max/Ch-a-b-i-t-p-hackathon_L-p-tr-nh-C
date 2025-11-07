@@ -14,19 +14,19 @@ int main() {
     int prime_number;
     int prime;
     int minIndex;
+         printf("\n--- MENU ---\n");
+         printf("1. Nhap so phan tu va gia tri cho mang.\n");
+         printf("2. In ra gia tri cac phan tu trong mang.\n");
+         printf("3. Tim gia tri lon nhat va nho nhat.\n");
+         printf("4. In ra tong cua cac gia tri phan tu.\n");
+         printf("5. Them phan tu vao cuoi mang.\n");
+         printf("6. Xoa phan tu tai mot vi tri cu the.\n");
+         printf("7. Sap xep (Bubble Sort).\n");
+         printf("8. Tim kiem (Linear Search).\n");
+         printf("9. In ra toan bo so nguyen to.\n");
+         printf("10. Sap xep (Selection Sort).\n");
+         printf("11. Thoat.\n");
     do {
-        printf("\n--- MENU ---\n");
-        printf("1. Nhap so phan tu va gia tri cho mang.\n");
-        printf("2. In ra gia tri cac phan tu trong mang.\n");
-        printf("3. Tim gia tri lon nhat va nho nhat.\n");
-        printf("4. In ra tong cua cac gia tri phan tu.\n");
-        printf("5. Them phan tu vao cuoi mang.\n");
-        printf("6. Xoa phan tu tai mot vi tri cu the.\n");
-        printf("7. Sap xep (Bubble Sort).\n");
-        printf("8. Tim kiem (Linear Search).\n");
-        printf("9. In ra toan bo so nguyen to.\n");
-        printf("10. Sap xep (Selection Sort).\n");
-        printf("11. Thoat.\n");
         printf("Nhap lua chon cua ban: ");
         scanf("%d", &choice);
         switch (choice) {
@@ -200,3 +200,4 @@ int main() {
     } while (choice != 11);
     return 0;
 }
+
